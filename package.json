@@ -8,13 +8,15 @@
         "type": "git",
         "url": "https://github.com/user/repo.git"
     },
-    "license": "UNLICENSED",
-    "author": "BuzzingPixel",
+    "license": "Apache-2.0",
+    "author": "BuzzingPixel, LLC",
     "contributors": [
         {
             "name": "TJ Draper",
             "url": "https://buzzingpixel.com"
         }
     ],
-    "devDependencies": {}
+    "dependencies": {
+        toDo: "mapFabDependencyHere"
+    }
 }
