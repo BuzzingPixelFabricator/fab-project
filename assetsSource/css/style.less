@@ -13,24 +13,27 @@
 \*----------------------------------------------------------------------------*/
 
 // Import Mixins
-@import (reference) 'mixins/**/*.less';
+@import (reference) './assetsSource/css/mixins/**/*.less';
 
 // Import reset
-@import (optional) 'reset.less';
+@import (optional) './assetsSource/css/reset.less';
 
 // Import components
-@import 'components/**/*.less';
+@import './assetsSource/css/components/**/*.less';
+
+// Import component mods
+@import './assetsSource/css/componentMods/**/*.less';
 
 // Utilities
-@import (optional) 'utilities.less';
+@import (optional) './assetsSource/css/utilities.less';
 
 // Typography
-@import (optional) 'typography.less';
+@import (optional) './assetsSource/css/typography.less';
 
 // Object oriented CSS
-@import 'layout/**/*.less';
-@import 'objects/**/*.less';
-@import 'containers/**/*.less';
+@import './assetsSource/css/layout/**/*.less';
+@import './assetsSource/css/objects/**/*.less';
+@import './assetsSource/css/containers/**/*.less';
 
 // Import Variables
-@import (reference) 'vars/**/*.less';
+@import (reference) './assetsSource/css/vars/**/*.less';
