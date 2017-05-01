@@ -12,5 +12,5 @@
 
 module.exports = function(grunt) {
     // Set up configuration
-    require('./node_modules/fabricator/src/Gruntfile.js')(grunt);
+    require('./node_modules/fab.grunt-build/src/Gruntfile.js')(grunt);
 };
