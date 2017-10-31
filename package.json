@@ -1,5 +1,10 @@
 {
-    "name" : "my-project",
+    "scripts": {
+        "fab": "node fab.js",
+        "fabCritical": "node fabCritical.js jsonUrl=http://fab-project.dev/jsonmap.json",
+        "fabCriticalFile": "node fabCritical.js file=public/index.html cssFile=public/assets/css/style.min.css"
+    },
+    "name": "my-project",
     "version": "1.0.0",
     "description": "my-description",
     "homepage": "https://site.com",
@@ -17,25 +22,6 @@
         }
     ],
     "dependencies": {
-        "fab.grunt-build": "^2.0.0",
-        "fab.assets": "^1.1.0",
-        "fab.controller": "^1.1.0",
-        "fab.jquery.has-scroll-bar": "^1.1.0",
-        "fab.jquery.js-hide": "^1.1.1",
-        "fab.model": "^1.1.0",
-        "fab.prototype.array": "^1.1.0",
-        "fab.prototype.to-camel-case": "^1.1.0",
-        "fab.scroll": "^1.2.0",
-        "fab.touch": "^1.1.0",
-        "fab.url": "^1.1.0",
-        "fab.video": "^1.1.1",
-        "fab.width-awareness": "^1.1.1",
-        "fabmixins": "^1.1.0",
-        "fabcss.code": "^1.1.0",
-        "fabcss.forms-and-buttons": "^1.1.0",
-        "fabcss.lists": "^1.1.0",
-        "fabcss.reset": "^1.1.0",
-        "fabcss.tables": "^1.1.0",
-        "fabcss.typography": "^1.1.0"
+        "fab-build-next": "^1.0.0"
     }
 }

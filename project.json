@@ -1,6 +1,6 @@
 {
-    "proxy": "http://fab.dev:8888",
+    "proxy": "http://fab-project.dev",
     "watch": [
-        "public/index.html"
+        "public/**"
     ]
 }
