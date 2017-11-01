@@ -7,12 +7,13 @@ This Fabricator project starter provides and example and/or starting point for u
 To get started with this project, copy the following files and directories from this repository to your project:
 
 - `assetsSource`
-- `.gitignore` (may require merging with your existing .gitignore)
 - `.editorconfig`
 - `.gitattributes` (may require merging with an existing .gitattributes)
+- `.gitignore` (may require merging with your existing .gitignore)
 - `.jscs.json` (can be edited to match your prefered code style)
 - `.jshintrc` (can be edited to match your prefered code style)
-- `Gruntfile.js`
+- `fab.js`
+- `fabCritical.js`
 - `package.json`
 - `project.json`
 - `projectOverrides.json.sample` (Anyone working on the project can remove `.sample` and override things locally in their environment)
@@ -24,9 +25,8 @@ Now:
     1. Set the proxy to the local development site URL for your project (or set to false if you do not wish to use live reload)
     2. Update the watch array to watch files and directories applicable to your project (if any, or remove if none)
     3. If your public directory is named something other than `public` add an `assets` key and update accordingly. The default is `"public/assets"`. If your public directory is `public_html` for instance, you would set the `assets` key to `"public_html/assets"`
-        - See [baseProjectFile.json](https://github.com/BuzzingPixelFabricator/buzzing-pixel-fabricator/blob/master/src/grunt/baseProjectFile.json) for other key/values you can add and override
-3. You can now run `grunt` on the command line to build your project and watch for changes to continuously build
-	- Run `grunt compile` to build your project once and then quit without watching.
+        - See [baseProjectFile.json](https://github.com/BuzzingPixelFabricator/fab-build-next/blob/master/src/baseProjectFile.json) for other key/values you can add and override
+3. You can now run `npm run fab` on the command line to build your project and watch for changes to continuously build
 
 ## License
 
