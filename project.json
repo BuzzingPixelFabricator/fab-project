@@ -1,6 +1,7 @@
 {
     "proxy": "http://fab-project.dev",
     "watch": [
-        "public/**"
+        "public/**",
+        "!public/assets/**"
     ]
 }

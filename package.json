@@ -22,7 +22,7 @@
         }
     ],
     "dependencies": {
-        "fab-build-next": "^1.0.0",
+        "fab-build-next": "^1.0.1",
         "fab.assets": "^1.2.1",
         "fab.controller": "^1.2.1",
         "fab.jquery.has-scroll-bar": "^1.1.0",
@@ -34,6 +34,12 @@
         "fab.touch": "^1.2.1",
         "fab.url": "^1.2.1",
         "fab.video": "^1.2.1",
-        "fab.width-awareness": "^1.2.1"
+        "fab.width-awareness": "^1.2.1",
+        "fabcss.code": "^1.3.1",
+        "fabcss.forms-and-buttons": "^1.3.0",
+        "fabcss.lists": "^1.3.0",
+        "fabcss.reset": "^1.3.0",
+        "fabcss.typography": "^1.3.0",
+        "fabmixins": "^2.3.0"
     }
 }
