@@ -1,1 +1,0 @@
-alias dbBackup='. /home/vagrant/development/vagrantConfig/dbBackups.sh';
