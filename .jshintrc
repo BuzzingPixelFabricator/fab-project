@@ -6,7 +6,7 @@
     "debug": true,
     "devel": true,
     "eqnull": true,
-    "es3": true,
+    "esversion": 6,
     "expr": true,
     "immed": true,
     "maxerr": 20,
@@ -21,9 +21,7 @@
         "$": false,
         "$r": false,
         "define": false,
-        "module": false,
-        "require": false,
-        "Wee": false
+        "exports": true
     },
     "undef": true,
     "unused": true

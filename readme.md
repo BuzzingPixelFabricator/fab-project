@@ -20,17 +20,17 @@ To get started with this project, copy the following files and directories from 
 
 Now:
 
-1. Run `npm install` in your project directory
+1. Run `yarn` in your project directory
 2. Edit the `project.json` with your local settings if you desire.
     1. Set the proxy to the local development site URL for your project (or set to false if you do not wish to use live reload)
     2. Update the watch array to watch files and directories applicable to your project (if any, or remove if none)
     3. If your public directory is named something other than `public` add an `assets` key and update accordingly. The default is `"public/assets"`. If your public directory is `public_html` for instance, you would set the `assets` key to `"public_html/assets"`
         - See [baseProjectFile.json](https://github.com/BuzzingPixelFabricator/fab-build-next/blob/master/src/baseProjectFile.json) for other key/values you can add and override
-3. You can now run `npm run fab` on the command line to build your project and watch for changes to continuously build
+3. You can now run `yarn run fab` on the command line to build your project and watch for changes to continuously build
 
 ## License
 
-Copyright 2017 TJ Draper, BuzzingPixel, LLC
+Copyright 2019 TJ Draper, BuzzingPixel, LLC
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

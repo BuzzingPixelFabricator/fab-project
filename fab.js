@@ -1,5 +1,7 @@
+/* jshint node: true */
+
 // Define our project root
-var path = require('path');
+let path = require('path');
 global.projectRoot = path.resolve(__dirname);
 
 // Run the build script
