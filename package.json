@@ -22,7 +22,7 @@
         }
     ],
     "dependencies": {
-        "fab-build-next": "^1.5.1",
+        "fab-build-next": "^1.6.0",
         "fab.assets": "^1.2.1",
         "fab.controller": "^1.2.1",
         "fab.jquery.has-scroll-bar": "^1.1.0",

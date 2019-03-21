@@ -27,6 +27,7 @@ Now:
     3. If your public directory is named something other than `public` add an `assets` key and update accordingly. The default is `"public/assets"`. If your public directory is `public_html` for instance, you would set the `assets` key to `"public_html/assets"`
         - See [baseProjectFile.json](https://github.com/BuzzingPixelFabricator/fab-build-next/blob/master/src/baseProjectFile.json) for other key/values you can add and override
 3. You can now run `yarn run fab` on the command line to build your project and watch for changes to continuously build
+    - To run the build only and not watch for changes, use `yarn run fab --build-only`
 
 ## License
 
