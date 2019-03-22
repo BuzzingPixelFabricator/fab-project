@@ -3,5 +3,8 @@
     "watch": [
         "public/**",
         "!public/assets/**"
-    ]
+    ],
+    "enableESLint": true,
+    "enableJSHint": false,
+    "enableJSCS": false
 }

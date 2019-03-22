@@ -10,8 +10,7 @@ To get started with this project, copy the following files and directories from 
 - `.editorconfig`
 - `.gitattributes` (may require merging with an existing .gitattributes)
 - `.gitignore` (may require merging with your existing .gitignore)
-- `.jscs.json` (can be edited to match your prefered code style)
-- `.jshintrc` (can be edited to match your prefered code style)
+- `.eslintrc` (can be edited to match your prefered code style)
 - `fab.js`
 - `fabCritical.js`
 - `package.json`
