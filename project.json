@@ -6,5 +6,7 @@
     ],
     "enableESLint": true,
     "enableJSHint": false,
-    "enableJSCS": false
+    "enableJSCS": false,
+    "fileSync": {
+    }
 }
